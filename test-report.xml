@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\workspace\ny-times\src\pages\Layout.test.js">
+    <testCase name="Layout renders without crashing" duration="21"/>
+  </file>
+  <file path="C:\workspace\ny-times\src\pages\ArticlesList.test.js">
+  </file>
+  <file path="C:\workspace\ny-times\src\App.test.js">
+  </file>
+  <file path="C:\workspace\ny-times\src\pages\Article.test.js">
+    <testCase name="Article renders without crashing" duration="237">
+      <failure message="Error: useLocation() may be used only in the context of a &lt;Router&gt; component."><![CDATA[Error: useLocation() may be used only in the context of a <Router> component.
+    at Object.invariant [as UNSAFE_invariant] (C:\workspace\ny-times\node_modules\@remix-run\router\history.ts:494:11)
+    at useLocation (C:\workspace\ny-times\node_modules\react-router\lib\hooks.tsx:104:3)
+    at Article (C:\workspace\ny-times\src\pages\Article.tsx:6:32)
+    at renderWithHooks (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:16305:18)
+    at mountIndeterminateComponent (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:20074:13)
+    at beginWork (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:21587:16)
+    at beginWork$1 (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:27426:14)
+    at performUnitOfWork (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:26560:12)
+    at workLoopSync (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:26466:5)
+    at renderRootSync (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:26434:7)
+    at recoverFromConcurrentError (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:25850:20)
+    at performConcurrentWorkOnRoot (C:\workspace\ny-times\node_modules\react-dom\cjs\react-dom.development.js:25750:22)
+    at flushActQueue (C:\workspace\ny-times\node_modules\react\cjs\react.development.js:2667:24)
+    at act (C:\workspace\ny-times\node_modules\react\cjs\react.development.js:2582:11)
+    at C:\workspace\ny-times\node_modules\@testing-library\react\dist\act-compat.js:63:25
+    at renderRoot (C:\workspace\ny-times\node_modules\@testing-library\react\dist\pure.js:159:26)
+    at render (C:\workspace\ny-times\node_modules\@testing-library\react\dist\pure.js:246:10)
+    at Object.<anonymous> (C:\workspace\ny-times\src\pages\Article.test.js:6:33)
+    at Promise.then.completed (C:\workspace\ny-times\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\workspace\ny-times\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\workspace\ny-times\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (C:\workspace\ny-times\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\workspace\ny-times\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\workspace\ny-times\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\workspace\ny-times\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\workspace\ny-times\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\workspace\ny-times\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\workspace\ny-times\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\workspace\ny-times\node_modules\jest-runner\build\runTest.js:475:34)
+    at Object.worker (C:\workspace\ny-times\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
+  </file>
+</testExecutions>
